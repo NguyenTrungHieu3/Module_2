@@ -1,4 +1,4 @@
-package ss5_access_modifier.bai_tap;
+package ss5_access_modifier.bai_tap.access_modifier;
 
 public class TestCircle {
     public static void main(String[] args) {
