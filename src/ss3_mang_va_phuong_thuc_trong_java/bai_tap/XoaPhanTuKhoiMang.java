@@ -2,9 +2,9 @@ package ss3_mang_va_phuong_thuc_trong_java.bai_tap;
 
 import java.util.Scanner;
 
-public class xoa_phan_tu_khoi_mang {
+public class XoaPhanTuKhoiMang {
     public static void main(String[] args) {
-        xoa_phan_tu_khoi_mang obj = new xoa_phan_tu_khoi_mang();
+        XoaPhanTuKhoiMang obj = new XoaPhanTuKhoiMang();
         int[] arr = {10, 4, 6, 7, 8, 6};
         System.out.println("Mảng ban đầu: ");
         obj.inMang(arr);

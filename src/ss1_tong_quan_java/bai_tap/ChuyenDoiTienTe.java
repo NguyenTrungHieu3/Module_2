@@ -2,7 +2,7 @@ package ss1_tong_quan_java.bai_tap;
 
 import java.util.Scanner;
 
-public class chuyen_doi_tien_te {
+public class ChuyenDoiTienTe {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int tiGia = 25000;

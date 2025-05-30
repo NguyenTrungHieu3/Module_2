@@ -2,7 +2,7 @@ package ss1_tong_quan_java.bai_tap;
 
 import java.util.Scanner;
 
-public class chuyen_doi_so_thanh_chu {
+public class ChuyenDoiSoThanhChu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập số (0 - 999) muốn chuyển sang chữ: ");

@@ -2,9 +2,9 @@ package ss3_mang_va_phuong_thuc_trong_java.bai_tap;
 
 import java.util.Scanner;
 
-public class tinh_tong_cac_so_o_duong_cheo_chinh_cua_ma_tran_vuong {
+public class TinhTongCacSoOCotNhatDinh {
     public static void main(String[] args) {
-        tinh_tong_cac_so_o_duong_cheo_chinh_cua_ma_tran_vuong obj = new tinh_tong_cac_so_o_duong_cheo_chinh_cua_ma_tran_vuong();
+        TinhTongCacSoOCotNhatDinh obj = new TinhTongCacSoOCotNhatDinh();
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập số hàng của mảng: ");
         int n = Integer.parseInt(sc.nextLine());
@@ -18,8 +18,10 @@ public class tinh_tong_cac_so_o_duong_cheo_chinh_cua_ma_tran_vuong {
             }
         }
         obj.inMang(arr);
-        double sum = obj.tinhTong(arr);
-        System.out.println("Tổng các phần tử trên đường chéo chính là: "+sum);
+        System.out.println("Nhập cột muốn tính tổng: ");
+        int cot = Integer.parseInt(sc.nextLine());
+        double sum = obj.tinhTong(arr, cot);
+        System.out.println("Tổng các phần tử cột "+cot+" là: "+sum);
     }
 
     public void inMang(double[][] arr) {
@@ -31,11 +33,12 @@ public class tinh_tong_cac_so_o_duong_cheo_chinh_cua_ma_tran_vuong {
         }
     }
 
-    public double tinhTong(double[][] arr) {
+    public double tinhTong(double[][] arr, int cot) {
         double sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum+= arr[i][i];
+            sum+= arr[i][cot];
         }
         return sum;
     }
 }
+
