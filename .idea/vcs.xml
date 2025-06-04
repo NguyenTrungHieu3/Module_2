@@ -2,6 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/ss7_abstract_and_interface/bai_tap/trien_khai_lop_resizeable_cho_cac_hinh_hoc/apj-shape" vcs="Git" />
   </component>
 </project>
