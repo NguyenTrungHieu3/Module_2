@@ -1,4 +1,4 @@
-package ss11_dsa_stack_queue.bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack;
+package ss11_dsa_stack_queue.bai_tap;
 
 import java.util.Map;
 import java.util.Set;
