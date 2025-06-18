@@ -1,4 +1,4 @@
-package ss15_xu_ly_ngoai_le_debug.bai_tap;
+package ss15_xu_ly_ngoai_le_debug.bai_tap.su_dung_lop_illegal_triangle_exception;
 
 import java.util.Scanner;
 
